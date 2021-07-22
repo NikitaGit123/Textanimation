@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('nordwood-themes-9a58YsGiTPk-unsplash.jpg');
+    background-size:cover;
+    font-family: 'Tourney', cursive;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:18%;
+}
+.text{
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 
+    0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+
+}
+.text2{
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #066e66,
+     0 0 40px #09776e, 0 0 50px #09776e, 0 0 60px #09776e, 0 0 70px #09776e;
+
+}
+hr{
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d3c11d, 
+    0 0 40px #d3c11d, 0 0 50px #d3c11d, 0 0 60px #d3c11d, 0 0 70px #d3c11d;
+
+}
+
+
+.animation {
+    animation-name: flash;
+   
+}
+
+.animate {
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: both;
+}
+@keyframes flash{
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0;
+    }
+}
